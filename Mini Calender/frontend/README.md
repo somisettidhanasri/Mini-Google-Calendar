@@ -1,16 +1,99 @@
-# React + Vite
+# 📅 Mini Calendar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Mini Calendar Web Application** built with **React + Vite** and **Supabase Authentication**.  
+Users can register, login, and manage calendar events with a clean UI.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 User Authentication (Login / Register) using Supabase
+- 📆 Interactive Calendar
+- 📝 Add, Edit, Delete Events
+- 📅 Display days on dates
+- 🎨 Clean and simple UI
+- ⚡ Fast build using Vite
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + Vite  
+- **Backend:** Supabase (Auth & Database)  
+- **Date Handling:** Day.js  
+- **Styling:** CSS  
+- **Build Tool:** Vite  
+
+
+
+## 📂 Project Structure
+
+MINI CALENDER
+│
+├── frontend
+│ ├── node_modules
+│ ├── public
+│ ├── src
+│ ├── .gitignore
+│ ├── eslint.config.js
+│ ├── index.html
+│ ├── package.json
+│ ├── package-lock.json
+│ ├── README.md
+│ └── vite.config.js
+│
+├── node_modules
+├── package.json
+└── package-lock.json
+
+
+
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/mini-calendar.git
+2️⃣ Navigate to frontend folder
+cd frontend
+3️⃣ Install required packages
+npm install react react-dom
+npm install @supabase/supabase-js
+npm install dayjs
+npm install -D vite
+(Or simply run npm install if package.json is present)
+
+4️⃣ Run the development server
+npm run dev
+5️⃣ Open in browser
+http://localhost:5173
+🔑 Supabase Setup
+Create a project at https://supabase.com
+
+Enable Email Authentication
+
+Copy your Project URL and Anon Public Key
+
+Paste them inside:
+
+src/supabase.js
+Example:
+
+import { createClient } from "@supabase/supabase-js";
+
+export const supabase = createClient(
+  "https://your-project-url.supabase.co",
+  "your-anon-key"
+);
+
+
+
+
+
+
+Screenshots:
+
+👩‍💻 Author
+svs.dhanasri
+
