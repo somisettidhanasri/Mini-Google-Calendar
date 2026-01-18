@@ -88,17 +88,7 @@ export const supabase = createClient(
 );
 
 
-Screenshots:
 
-<img width="1910" height="993" alt="Image" src="https://github.com/user-attachments/assets/6d22846b-9d5a-4d83-8f01-f0baaa59e778" />
-
-<img width="1919" height="1078" alt="Image" src="https://github.com/user-attachments/assets/1e4252dd-6df9-4cea-9115-ee73aeb70c2a" />
-
-<img width="1909" height="890" alt="Image" src="https://github.com/user-attachments/assets/b92aac82-00b8-4287-ba79-4cc64c7f4dfb" />
-
-<img width="873" height="639" alt="Image" src="https://github.com/user-attachments/assets/9efd9d16-8ab4-4195-9ddb-207a476026e2" />
-
-<img width="1916" height="891" alt="Image" src="https://github.com/user-attachments/assets/af2752f2-b2ad-48fd-90e9-ad6f341c1388" />
 
 
 
